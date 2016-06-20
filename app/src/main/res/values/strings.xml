@@ -6,4 +6,5 @@
     <string name="Calender">Calender</string>
     <string name="Email">Email</string>
     <string name="Share">Share</string>
+    <string name="pickcontact">PickContact</string>
 </resources>

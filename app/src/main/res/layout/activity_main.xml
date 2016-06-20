@@ -17,7 +17,7 @@
         android:id="@+id/phone"
         android:onClick="viewphone"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+
         android:layout_marginTop="28dp" />
 
     <Button
@@ -68,6 +68,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp" />
 
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pickcontact"
+        android:id="@+id/pickcontact"
+        android:onClick="pickcontact"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/phone"
+        android:layout_marginTop="28dp" />
 
 </RelativeLayout>
